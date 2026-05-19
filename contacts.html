@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти — Grill House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="Grill House"></a>
+            <button class="menu-button" id="menuButton">☰</button>
+            <nav class="nav" id="navMenu">
+                <a href="index.html">Головна</a>
+                <a href="menu.html">Меню</a>
+                <a href="about.html">Про нас</a>
+                <a href="contacts.html" class="active">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero small-hero contacts-hero">
+            <div class="container">
+                <p class="tagline">visit us</p>
+                <h1>Контакти та бронювання</h1>
+                <p>Забронюйте стіл у Grill House або уточніть інформацію про меню та графік роботи.</p>
+            </div>
+        </section>
+
+        <section class="section contacts-section">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <p class="section-label">Де нас знайти</p>
+                    <h2>Grill House Restaurant</h2>
+                    <p><strong>Адреса:</strong> вул. Центральна, 18, центр міста</p>
+                    <p><strong>Телефон:</strong> +38 (000) 123-45-67</p>
+                    <p><strong>Email:</strong> grillhouse@example.com</p>
+                    <p><strong>Графік:</strong> Пн–Чт 12:00–22:00, Пт–Нд 12:00–00:00</p>
+                </div>
+
+                <form class="booking-form">
+                    <h2>Забронювати стіл</h2>
+                    <label>
+                        Ваше ім’я
+                        <input type="text" placeholder="Наприклад, Олексій">
+                    </label>
+                    <label>
+                        Телефон
+                        <input type="tel" placeholder="+38 (___) ___-__-__">
+                    </label>
+                    <label>
+                        Дата і час
+                        <input type="text" placeholder="Наприклад, 18 травня, 19:30">
+                    </label>
+                    <label>
+                        Кількість гостей
+                        <select>
+                            <option>1 гість</option>
+                            <option>2 гості</option>
+                            <option>3–4 гості</option>
+                            <option>5–6 гостей</option>
+                            <option>Більше 6 гостей</option>
+                        </select>
+                    </label>
+                    <label>
+                        Коментар
+                        <textarea placeholder="Наприклад, стіл на 4 особи"></textarea>
+                    </label>
+                    <button type="button" class="btn primary full">Надіслати заявку</button>
+                    
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© 2026 Grill House Restaurant</p>
+            <p>Страви на грилі, якісний смак і приємний відпочинок.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
